@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-yarn install
+yarn install  潘慧娟
 ```
 
 ### Compiles and hot-reloads for development
