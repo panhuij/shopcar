@@ -1,0 +1,45 @@
+html,body,#app,.home,.homeworld{
+    width: 100%;
+    height: 100%;
+}
+html,body{
+    font-size: calc(100/375*100vw);
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 17px;
+}
+%juzhong{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeworld{
+    display: flex;
+    flex-direction: column;
+}
+.header,.footer{
+    height: calc(.4rem);
+    @extend %juzhong;
+}
+.nav{
+    padding: calc(0.2rem);
+    input{
+        border: 1px solid #000;
+        margin-right: calc(0.1rem);
+    }
+}
+.main{
+    flex: 1;
+    overflow: auto;
+    padding:0 calc(.3rem);
+}
+.footer{
+    display: flex;
+    button{
+        flex: 1;
+        @extend %juzhong;
+    }
+}
